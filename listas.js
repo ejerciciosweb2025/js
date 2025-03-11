@@ -2,13 +2,18 @@
  * y cuente cuantas vocales a, e, i, o y u contiene la palabra escrita.
  */
 
+function hola(){
+    console.log("Hola");
+    console.log("Hola");
 
+}
 /** Entrada de datos */
 let palabra ="";
 let respuesta ="aeiou";
 let contadorRespuestaVocales;
 let respuestaVocales="";
-/*let respuestaPorVocal=0;*/
+let respuestaPorVocal=0;
+hola();
 /*let letraa  =0;
 let letrae  =0;
 let letrai  =0;
@@ -45,14 +50,16 @@ for(i=0;i<palabra.length;i++){
         letrau++;    
     }*/
 
-}
-/*respuestaPorVocal=0;
-for(z=0;z<respuestaVocales.length;z++){
-    if(respuestaPorVocal>0){
-        respuestaPorVocal++;
+    respuestaPorVocal=0;
+    for(z=0;z<respuestaVocales.length;z++){
+        if(respuestaPorVocal>0){
+            respuestaPorVocal++;
+        }
     }
+    console.log("Respuesta por vocal del string: "+respuestaPorVocal);
+
 }
-console.log("Respuesta por vocal del string: "+respuestaPorVocal);*/
+
 
 
 
